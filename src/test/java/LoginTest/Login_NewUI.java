@@ -50,9 +50,9 @@ public class Login_NewUI {
     @Test(priority = 1)
     public void Verify_Login() {
         page.navigate("https://bytzsoft.in/FlyPalBytz/Login.aspx");
-        page.fill("#txtUserName", "Amar");
+        page.fill("#txtUserName", "Amar12345234");
         page.click("//*[@id=\"lnkArrow\"]/i");
-        page.fill("#txtPassword", "6850");
+        page.fill("#txtPassword", "6850dda");
         page.click("//*[@id=\"btnLogin\"]");
         page.waitForLoadState(LoadState.NETWORKIDLE);
         page.waitForTimeout(5000);
